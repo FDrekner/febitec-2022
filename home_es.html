@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="docs/icon/icon.png">
+		<title>FEBITEC</title>
+		
+		<link rel="stylesheet" href="css.css">
+		
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	</head>
+	<body>
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		
+		<!--Content-->
+		<section class="hd">
+			<div class="cabecao cabeca fixed-top bghead">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+				  <div class="container-fluid">
+					<a class="navbar-brand d-lg-none" href="#"><img src="docs/logofebitec/logo22Sadaptado.png" class="d-inline-block align-top logo" alt=""></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <ul class="navbar-nav mx-auto align-items-center mb-2 mb-lg-0">
+						<a class="navbar-brand d-none d-lg-block" href="home_es.html">
+							<img src="docs/logofebitec/logo22Sadaptado.png" class="d-inline-block align-top logo" alt="">
+						</a>
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre">SOBRE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#cronograma">CRONOGRAMA</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#faq">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#ModalR" data-bs-toggle="modal">REGLAMENTOS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#ModalT" data-bs-toggle="modal">TEMPLATES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#ModalA" data-bs-toggle="modal">PUBLICACIONES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="home.html"><img class="bandeira inativo" src="docs/bandeiras/brasil.png"></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="home_es.html"><img class="bandeira" src="docs/bandeiras/uruguai.png"></a>
+						</li>
+						<li class="nav-item">
+							<button class="botao3es" data-bs-toggle="modal" data-bs-target="#inscricao"><i class="fa-solid fa-circle-user"></i> REGISTRARSE</button>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				</nav>
+			</div>
+		</section>
+		<section class="bg">
+			<div class="container">
+				<br><br><br><br>
+				<div class="row row2 text-center">
+					<div class="coluna1 col-lg-6">
+						<div class="container">
+							<br>
+							<div class="row">
+								<div class="col">
+									<p class="subt">¡LA 4ª EDICIÓN DE LA FERIA BINACIONAL DE TECNOLOGÍA TE ESPERA!</p>
+								</div>
+							</div>
+							<br><br>
+							<div class="row align-items-center">
+								<div class="col">
+									<button class="botao2es" data-bs-toggle="modal" data-bs-target="#inscricao"><i class="fa-solid fa-circle-user"></i> REGISTRARSE</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="coluna1 col-lg-6">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col">
+									<p class="subt">ORGANIZACIÓN</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-lg-8">
+											<img class="org" src="docs/logos/ifb.png">
+										</div>
+										<div class="col-lg-4">
+											<img class="org" src="docs/logos/utecb.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<img class="org" src="docs/logos/utub.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+		</section>
+		<section id="sobre">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4"></div>
+					<div class="col-lg-4 text-center">
+						<br><br>
+						<span class="oqe">¿QUE ES LA 4ª FEBITEC?</span>
+					</div>
+					<div class="col-lg-4"></div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-8 text-center"><span class="exp1">La 4ª FEBITEC es una feria de presentaciones de trabajos de alumnos de instituciones públicas y privadas, con el objetivo de estimular el intercambio de conocimiento en los diferentes niveles y áreas de aprendizaje.</span></div>
+					<div class="col-lg-2"></div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-lg-5 text-center">
+						<span class="oqe">NIVELES <i class="icons fa-solid fa-graduation-cap"></i><br>DE ENSEÑANZA </span> <br><br>
+						<span class="exp1">
+							- Ciclo básico<br>
+							- Bachillerato<br>
+							- Bachilleratos tecnológicos<br>
+							- Tecnicaturas<br>
+							- Grado<br>
+						</span>
+					</div>
+					<div class="col-lg-2"></div>
+					<div class="col-lg-5 text-center">
+						<span class="oqe">ÁREAS DE <i class="fa-solid fa-book"></i>APRENDIZAJE</span> <br><br>
+						<span class="exp1">
+							- Lenguaje, Códigos y sus Tecnologías;<br>
+							- Matemáticas y sus Tecnologías;<br>
+							- Ciencias Naturales y sus Tecnologías;<br>
+							- Humanidades y sus Tecnologías.<br>
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br><br>
+		<section class="bg text-center" id="cronograma">
+			<br><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<span class="subt">CRONOGRAMA</span>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<table>
+							<tbody>
+								<tr class="trow">
+									<td class="l"><i class="fa-solid fa-calendar-check calendario"></i></td>
+									<td class="c"><span class="dias">13/07 al 30/09</span></td>
+									<td class="l"><span class="exp2">Período de inscripciones</span></td>
+								</tr>
+								<tr class="trow">
+									<td class="l"><i class="fa-solid fa-calendar-check calendario"></i></td>
+									<td class="c"><span class="dias">2/10</span></td>
+									<td class="l"><span class="exp2">Divulgación de trabajos aprobados</span></td>
+								</tr>
+								<tr class="trow">
+									<td class="l"><i class="fa-solid fa-calendar-check calendario"></i></td>
+									<td class="c"><span class="dias">25/10 al 27/10</span></td>
+									<td class="l"><span class="exp2">Feria presencial</span></td>
+								</tr>
+								<tr>
+									<td class="l"><i class="fa-solid fa-calendar-check calendario"></i></td>
+									<td class="c"><span class="dias">8/11</span></td>
+									<td class="l"><span class="exp2">Feria virtual</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-lg-3"></div>
+				</div>
+			</div>
+			<br>
+		</section>
+		<br><br>
+		<section id="faq">
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<span class="perg">FAQ / PREGUNTAS FRECUENTES</span>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="container">
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"Hago Bachillerato tecnólogico en un IF/UTU, en que modalidad debo aplicar?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Debes inscribirte en la modalidad <a class="ref" href="#">Bachillerato Tecnólogico</a></span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"Ya no estoy estudiando, ¿Puedo participar de igual manera?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">¡Sí! Pero cada trabajo debe tener al menos un profesor orientador, y ese profesor debe estar vinculado a una institución educativa.</span>
+							</div>
+						</div>
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"Participo como orientador en algunos trabajos pero también me gustaría postularme como evaluador, ¿es posible?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Sí, pero no podrás evaluar trabajos de tu propia institución</span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Hay que pagar?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">¡La participación en la feria, en todas sus modalidades, es 100% gratuita!</span>
+							</div>
+						</div>
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Existe limite de edad?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">¡No! ¡Los investigadores pueden ser de todas las edades!</span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Será en persona?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Sí! Solamente estudiantes de graduación podrán eligir por participar de la feria de manera virtual</span>
+							</div>
+						</div>
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Como será la presentación presencial?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Todos los trabajos deben ser apresentados con posters en la fecha y lugar indicados por la organización</span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Como será la presentación virtual?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Será apenas para trabajos de graduación, y uno de los autores deberá apresentar en una sala virtual informada por la organización en la fecha y hora definidos</span>
+							</div>
+						</div>
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Es necesario que los evaluadores estén los 3 días de feria?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">No, en el momento de la inscripción, los evaluadores deberan informar su disponibilidad los días 25, 26 y 27 de octubre y/o 8 de noviembre</span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Puedo registrarme solamente como evaluador virtual?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Sí, esa opción debe ser marcada en el momento de la inscripción</span>
+							</div>
+						</div>
+						<div class="row pf escuro">
+							<div class="col-lg-6">
+								<span class="pergunta">"Envié mi trabajo pero faltó una información, ¿puedo editar?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">No, pero puede realizarse más de un envio del mismo trabajo, y solamente el ultimo envío será considerado</span>
+							</div>
+						</div>
+						<div class="row pf claro">
+							<div class="col-lg-6">
+								<span class="pergunta">"¿Cómo obtengo mi certificado de participación?"</span>
+							</div>
+							<div class="col-lg-6">
+								<span class="resposta">Al final de la feria, todos los certificados se enviarán por correo electrónico</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<br>
+		</section>
+		<br><br>
+		<section>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-3">
+						<a href="https://www.facebook.com/febitec/" target="_blank"><button class="redes face"><i class="fa-brands fa-facebook-f icon"></i></button></a>
+						<span class="socials">fb.com/Febitec</span>
+					</div>
+					<div class="col-lg-2">
+						<a href="https://www.instagram.com/febitec/" target="_blank"><button class="redes insta"><i class="fa-brands fa-instagram icon"></i></button></a>
+						<span class="socials">@febitec</span>
+					</div>
+					<div class="col-lg-3">
+						<a href="mailto:febitec@gmail.com?"><button class="redes email"><i class="fa-solid fa-envelope icon"></i></button></a>
+						<span class="socials">febitec@gmail.com</span>
+					</div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>
+		</section>
+		<br><br>		
+		<div class="modal fade" id="ModalR" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+			<div class="modal-dialog modal-lg text-center">
+				<div class="modal-content modais">
+					  <div class="container text-center">
+						  <div class="row mh">
+							  <div class="col-lg-1">
+							  </div>
+							  <div class="col-lg-10">
+								  <span class="modal-title titulo" id="modal1">REGLAMENTOS</span><br>
+								  <span class="subtitulo">Lea el reglamento referente al nivel de enseñanza de su trabajo</span>
+							  </div>
+							  <div class="col-lg-1">
+								  <div class="close-modal" data-bs-dismiss="modal"><i class="fa-solid fa-xmark close" alt="Close Modal"></i></div>
+							  </div>
+						  </div>
+						  <br><br>
+						  <div class="row">
+							<span class="subtitulo2">Português</span><br><br>
+							<ul class="listas">
+								<li>
+									<a href="#"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabalhos de Ensino Fundamental e Médio</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabalhos de Ensino Médio-Técnico e Técnico</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabalhos de Ensino Superior</button></a>
+								</li>
+							</ul>
+						  </div>
+						  <br><br>
+						  <div class="row">
+							<span class="subtitulo2">Español</span><br><br>
+							<span class="subtitulo2">Indisponible</span>
+							<!--<ul class="listas">
+								<li>
+									<a href="#" download target="_blank"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabajos de Ciclo Básico y Bachillerato</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#" download target="_blank"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabajos de Educación Media Técnica y Técnica</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#" download target="_blank"><button class="bmod botaomodalr"><i class="fa-solid fa-clipboard-list"></i> Trabajos de Educación Superior</button></a>
+								</li>
+							</ul>-->
+						  </div>
+					  </div>
+					  <br>
+				</div>
+			  </div>
+		</div>
+		<div class="modal fade" id="ModalT" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+			  <div class="modal-content modais">
+					<div class="container text-center">
+						<div class="row mh">
+							<div class="col-lg-1">
+							</div>
+							<div class="col-lg-10">
+								<span class="modal-title titulo" id="modal2">TEMPLATES</span><br>
+								<span class="subtitulo">Descarga el template para el nivel de enseñanza de tu trabajo</span>
+							</div>
+							<div class="col-lg-1">
+								<div class="close-modal" data-bs-dismiss="modal"><i class="fa-solid fa-xmark close" alt="Close Modal"></i></div>
+							</div>
+						</div>
+						  <br><br>
+						  <div class="row">
+							<ul class="listas">
+								<li>
+									<a href="#"><button class="bmod botaomodalt"><i class="fa-solid fa-book"></i> Resumen Simples</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodalt"><i class="fa-solid fa-book"></i> Trabajo Completo</button></a>
+								</li>
+							</ul>
+						  </div>
+					</div>
+					<br>
+			  </div>
+			</div>
+		</div>
+		<div class="modal fade" id="ModalA" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content modais">
+					  <div class="container text-center">
+						  <div class="row mh">
+							  <div class="col-lg-1">
+							  </div>
+							  <div class="col-lg-10">
+								  <span class="modal-title titulo" id="modal3">PUBLICACIONES</span><br>
+								  <span class="subtitulo">Accede a las publicaciones de la feria aquí.</span>
+							  </div>
+							  <div class="col-lg-1">
+								  <div class="close-modal" data-bs-dismiss="modal"><i class="fa-solid fa-xmark close" alt="Close Modal"></i></div>
+							  </div>
+						  </div>
+						  <br><br>
+						  <div class="row">
+							<ul class="listas">
+								<li>
+									<a href="#"><button class="bmod botaomodalaes"><i class="fa-solid fa-link"></i> Publicaciones 1ª FEBITEC</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodalaes"><i class="fa-solid fa-link"></i> Publicaciones 2ª FEBITEC</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodalaes"><i class="fa-solid fa-link"></i> Publicaciones 3ª FEBITEC</button></a>
+								</li>
+							</ul>
+						  </div>
+					  </div>
+					  <br>
+				</div>
+			  </div>
+		</div>
+		<div class="modal fade" id="inscricao" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content modais">
+					  <div class="container text-center">
+						  <div class="row mh">
+							  <div class="col-lg-1">
+							  </div>
+							  <div class="col-lg-10">
+								  <span class="modal-title titulo" id="modal3">REGISTRO</span><br>
+								  <span class="subtitulo">Elige tu nivel de enseñanza</span>
+							  </div>
+							  <div class="col-lg-1">
+								  <div class="close-modal" data-bs-dismiss="modal"><i class="fa-solid fa-xmark close" alt="Close Modal"></i></div>
+							  </div>
+						  </div>
+						  <br><br>
+						  <div class="row">
+							<ul class="listas">
+								<li>
+									<a href="#"><button class="bmod botaomodale"><i class="fa-solid fa-graduation-cap"></i> Ciclo Básico y Bachillerato</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodale"><i class="fa-solid fa-graduation-cap"></i> Educación Media Técnica</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodale"><i class="fa-solid fa-graduation-cap"></i> Educación Técnica</button></a>
+								</li>
+								<br>
+								<li>
+									<a href="#"><button class="bmod botaomodale"><i class="fa-solid fa-graduation-cap"></i> Educación Superior</button></a>
+								</li>
+							</ul>
+							<hr>
+							<ul class="listas">
+								<li>
+									<a href="#"><button class="bmod botaomodale"><i class="fa-solid fa-graduation-cap"></i> Evaluador</button></a>
+								</li>
+							</ul>
+						  </div>
+						  <br>
+					  </div>
+				</div>
+			  </div>
+		</div>
+	</body>
+</html>
